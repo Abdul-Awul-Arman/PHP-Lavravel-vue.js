@@ -1,1 +1,4 @@
-$aramn
+<?php
+
+echo "arman";
+?>
