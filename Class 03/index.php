@@ -9,7 +9,24 @@ define("site_name","arman");
 define("constd","the var");
 
 printf(constd."<br>");
+define("theVarable","thsValue");
 
-echo site_name;
+print_r(theVarable."<br>");
+
+$arry=['taman',"jfjfj",2];
+
+//print_r for arry output
+print_r($arry);
+//var dump is also for arry
+// var_dump($arry);
+
+//function
+
+function fun(){
+    $var=40;
+    echo $var;
+}
+
+// fun();
 
 ?>
