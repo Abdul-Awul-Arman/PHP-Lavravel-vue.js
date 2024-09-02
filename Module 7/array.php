@@ -29,12 +29,19 @@ $arman = ["age" => 22, "name" => "arman", "city" => "sylhet"];
 // $ans= array_search("arman",$arman);
 
 // $ans=array_flip($arman);
-$ans=asort($arman);
+// $ans=asort($arman);
 
 
  
-print_r($ans) ;
+// print_r($ans) ;
+
+// function(int $a){
+
+// };
 
 // foreach ($values as $ans) {
 //   echo "$ans ";
 // }
+
+
+    
