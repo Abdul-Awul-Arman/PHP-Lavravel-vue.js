@@ -6,4 +6,6 @@
         }
         return false;
     }
+
+    function f
 ?>
