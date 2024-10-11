@@ -1,7 +1,30 @@
 <?php
-    $vegetableString="carrot,brinjal,tomato";
+// $vegetableString = "carrot, brinjal, tomato";
 
-    $vegetableArray=explode(",",$vegetableString);
+// $vegetableArray = explode(",", $vegetableString);
+// $vegetableArray = ['carrot', 'brinjal', 'tomato'];
 
-    print_r($vegetableArray);
-?>
+// $vegetableStringNew = join("", $vegetableArray);
+
+// echo $vegetableString;
+
+// $array = ["apple", "banana", "cherry"];
+// $string = join(", ", $array);
+
+// echo $string;
+// $array = ["apple", "banana", "cherry"];
+// $string = implode(", ", $array);
+
+// echo $string;
+
+//multiple delimeter
+
+$vegetableString = "carrot, brinjal, tomato,potato";
+
+$multipleAns= preg_split('/(, |,)/',$vegetableString);
+
+print_r($multipleAns);
+
+
+
+
