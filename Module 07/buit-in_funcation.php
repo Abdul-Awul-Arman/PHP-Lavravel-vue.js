@@ -19,12 +19,16 @@
 
 //multiple delimeter
 
-$vegetableString = "carrot, brinjal, tomato,potato";
+$vegetableString = ["carrot", "brinjal", "tomato", "potato"];
 
-$multipleAns= preg_split('/(, |,)/',$vegetableString);
+// $multipleAns = preg_split('/(, |,)/', $vegetableString);
 
-print_r($multipleAns);
+// print_r($multipleAns);
 
+$coded = implode(" this  is ", $vegetableString);
 
+// echo $vegetableString[0];
 
+echo $coded;
 
+// print_r($vegetableString);
