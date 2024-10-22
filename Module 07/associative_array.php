@@ -9,10 +9,10 @@
 
     // print_r($unserialize);
 
-    $json = json_encode($assoArray);
+    // $json = json_encode($assoArray);
 
     // echo $json;
 
-    $jsonDecode = json_decode($json,true);
+    // $jsonDecode = json_decode($json,true);
 
-    print_r($jsonDecode);
+    // print_r($jsonDecode);
